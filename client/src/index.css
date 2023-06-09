@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: #dcdce6;
+  background-image: url('./assets/Background.png');
+}
+
+/*
+position: absolute;
+    font-size: 20px;
+    right: 18px;
+    top: 20px;
+*/
